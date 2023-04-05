@@ -1,0 +1,12 @@
+.container_title h2{
+  font-weight: 500;
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 50px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.container_title span{
+  color: var(--color-contrast-1);
+}

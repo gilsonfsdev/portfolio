@@ -1,0 +1,206 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 8px;
+  padding-bottom: 36px;
+  gap: 10px;
+  background-color:var(--color-background-light);
+  height: auto;
+}
+
+.container_title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.container_projetos{
+  background-color: var(--color-background-dark);
+  border: 1px solid #101013;
+  padding: 24px;
+  border-radius: 4px;
+  margin: 50px 80px 12px;
+  color: #fff;
+  scroll-behavior:smooth;
+
+  display: flex;
+  gap: 24px;
+  overflow:hidden;
+  max-width: 300px;
+}
+
+.card_projetos{
+  padding: 12px;
+  padding-right: 36px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.titleMobile{
+  color: var(--color-contrast-1);
+  text-align: center;
+}
+
+.card_projetos p{
+  text-align: justify;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.div_imagem{
+  border-radius: 4px;
+  width: 230px;
+}
+
+.div_imagem img{
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.div_buttons{
+  display: flex;
+  gap: 12px;
+}
+
+.button_projeto{
+  color: #fff;
+  border-radius: 4px;
+  background-color: var(--color-contrast-2);
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 12px;
+  transition: 0.5s ease-in-out;
+  border: 1px solid var(--color-contrast-2);
+  font-size: 0.8rem;
+}
+
+.button_projeto:hover{
+  border:1px solid #fff;
+}
+
+.buttonScroll button{
+  background-color: var(--color-background-light);
+  color: var(--color-contrast-2);
+  font-size: 2.5rem;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.buttonScroll button:hover{
+  color: var(--color-contrast-1);
+}
+
+.right{
+  rotate: 180deg;
+}
+
+.card_projetosDesktop{
+  display: none;
+}
+
+.buttonScrollDesktop{
+  display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .container_projetos{
+    width: 80%;
+    max-width: 800px;
+  }
+
+  .card_projetosDesktop{
+    display: flex;
+    min-width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 12px 0;
+  }
+
+  .div_imagemDesktop{
+    width: 50%;
+  }
+
+  .div_imagemDesktop img{
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+  }
+
+  .card_AsideImagemDesktop {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 12px;
+  }
+
+  .titleDesktop{
+    color: var(--color-contrast-1);
+    font-size: 1.2rem;
+  }
+
+  .card_AsideImagemDesktop p{
+    text-align: justify;
+    font-size: 0.9rem;
+    color: #ccc;
+    width: 40ch;
+    line-height: 125%;
+  }
+
+  .button_projetoDesktop{
+    color: #fff;
+    border-radius: 4px;
+    background-color: var(--color-contrast-2);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    max-width: 50%;
+    transition: 0.5s ease-in-out;
+    border: 1px solid var(--color-contrast-2);
+    font-size: 0.9rem;
+   }
+  
+  .button_projetoDesktop:hover{
+    border:1px solid #fff;
+  }
+
+  .card_projetos{
+    display: none;
+  }
+
+  .buttonScroll {
+    display: none;
+  }
+
+  .buttonScrollDesktop{
+    display: flex;
+  }
+
+  .buttonScrollDesktop button{
+    background-color: transparent;
+    color: var(--color-contrast-2);
+    font-size: 2.5rem;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+
+  .buttonScrollDesktop button:hover{
+    color: var(--color-contrast-1);
+  }
+
+}

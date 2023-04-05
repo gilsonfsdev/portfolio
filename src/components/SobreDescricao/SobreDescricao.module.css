@@ -1,0 +1,48 @@
+.div_sobre_descricao{
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0px;
+}
+
+.sobre_sobre{
+  color: var(--color-contrast-1);
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+
+.div_sobre_descricao h2{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+
+.sobre_subtitle{
+  font-size: 0.9rem;
+  padding-bottom: 12px;
+  font-weight: 300;
+}
+
+.sobre_description{
+  color: #BFBFBF;
+  line-height: 130%;
+  text-align:justify;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.sobre_button_cv{
+  color: #fff;
+  border-radius: 4px;
+  background-color: var(--color-contrast-2);
+  text-decoration: none;
+  width: 135px;
+  text-align: center;
+  padding: 12px;
+  transition: 0.5s ease-in-out;
+  border: 1px solid var(--color-contrast-2);
+}
+
+.sobre_button_cv:hover{
+  border:1px solid #fff;
+}

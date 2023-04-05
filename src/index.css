@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Archivo', sans-serif;
+}
+
+:root{
+  --color-background-light: #09090B;
+  --color-background-dark: #040405;
+  --color-contrast-1: #e67326;
+  --color-contrast-2: #863215;
+  --color-border: #101013;
+  --color-menuicon: #ccc;
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+} 
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-contrast-2);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-background-dark);
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
