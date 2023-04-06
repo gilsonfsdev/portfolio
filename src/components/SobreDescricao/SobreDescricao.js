@@ -1,14 +1,16 @@
 import React from 'react';
 import styles from './SobreDescricao.module.css';
 
+import { motion } from 'framer-motion';
+
 const SobreDescricao = () => {
   return (
     <div className={styles.div_sobre_descricao}>
       <p className={styles.sobre_sobre}>Sobre</p>
-      <h2>Gilson Ferreira</h2>
-      <p className={styles.sobre_subtitle}>Desenvolvedor Front-End</p>
-      <p className={styles.sobre_description}>Meu nome é Gilson Ferreira, sou estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia. Estou em transição de carreira e atualmente procuro estágio, cargo como desenvolvedor júnior ou trainee como Front-End.</p>
-      <a href='/' download className={styles.sobre_button_cv}>Download CV</a>
+      <motion.h2 animate={{ y: [ -50, 0 ]}} transition={{ duration: 1.5 }} >Gilson Ferreira</motion.h2>
+      <motion.p className={styles.sobre_subtitle} animate={{ x: [ 100, 0 ]}} transition={{ duration: 1.2 }}>Desenvolvedor Front-End</motion.p>
+      <motion.p className={styles.sobre_description} animate={{ x: [ 100, 0 ]}} transition={{ duration: 1.5 }}>Olá! Eu sou o Gilson, estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia. Estou em transição de carreira e atualmente procuro estágio, cargo como desenvolvedor júnior ou trainee como Front-End.</motion.p>
+      <a href='/' download className={styles.sobre_button_cv} animate={{ x: [ 100, 0 ]}} transition={{ duration: 1.5 }}>Download CV</a>
     </div>
   )
 }

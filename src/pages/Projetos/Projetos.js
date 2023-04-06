@@ -61,12 +61,12 @@ const Projetos = () => {
 
   const handleLeftClickDesktop = (e) => {
     e.preventDefault();
-    carousel.current.scrollLeft -= (carousel.current.offsetWidth - 30 );
+    carousel.current.scrollLeft -= (carousel.current.offsetWidth - 25 );
   }
 
   const handleRightClickDesktop = (e) => {
     e.preventDefault();
-    carousel.current.scrollLeft += (carousel.current.offsetWidth - 30 );
+    carousel.current.scrollLeft += (carousel.current.offsetWidth - 25 );
   }
 
 
