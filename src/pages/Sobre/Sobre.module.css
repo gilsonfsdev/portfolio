@@ -14,7 +14,7 @@
 .div_grey{
   background-color: var(--color-background-light);
   border: 1px solid #101013;
-  padding: 0px 24px;
+  padding: 0px 24px 12px;
   border-radius: 4px;
   margin: 25px 25px 50px 25px;
   width: 85%;

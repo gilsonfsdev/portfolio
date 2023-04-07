@@ -20,32 +20,36 @@ const Projetos = () => {
         id2: 11,
         title: "App Finanças",
         imagem: ControleFinanceiro,
-        description: "Este projeto foi desenvolvido em React e sua finalidade é facilitar o controle financeiro por parte de alguém. Foi usado a firebase e sei la o que mais. Este projeto foi desenvolvido em React e sua finalidade é facilitar o controle financeiro por parte de alguém.",
-        link: "link do github",
+        description: "Em construção",
+        link: "/",
+        repositorio: 'https://github.com/gilsonfsdev'
       },
       {
         id:2,
         id2: 22,
-        title: "Título 2",
+        title: "Projeto 2",
         imagem: ControleFinanceiro,
-        description: "Este projeto foi desenvolvido em React e sua finalidade é facilitar o controle financeiro por parte de alguém. Foi usado a firebase e sei la o que mais. ",
-        link: "link do github",
+        description: "Em construção ",
+        link: "/",
+        repositorio:'https://github.com/gilsonfsdev'
       },
       {
         id:3,
         id2: 33,
-        title: "Título 3",
+        title: "Projeto 3",
         imagem: ControleFinanceiro,
-        description: "Este projeto foi desenvolvido em React e sua finalidade é facilitar o controle financeiro por parte de alguém. Foi usado a firebase e sei la o que mais. ",
-        link: "link do github",
+        description: "Em construção ",
+        link: "/",
+        repositorio:'https://github.com/gilsonfsdev'
       },
       {
         id:4,
         id2: 44,
-        title: "Título 4",
+        title: "Projeto 4",
         imagem: ControleFinanceiro,
-        description: "Este projeto foi desenvolvido em React e sua finalidade é facilitar o controle financeiro por parte de alguém. Foi usado a firebase e sei la o que mais. ",
-        link: "link do github",
+        description: "Em construção ",
+        link: "/",
+        repositorio:'https://github.com/gilsonfsdev'
       }
     ]
 
@@ -91,8 +95,8 @@ const Projetos = () => {
               </div>
                 <p>{projeto.description}</p>
                 <div className={styles.div_buttons}>
-                  <a href='/' target='_blank' className={styles.button_projeto}>Acessar site</a>
-                  <a href='/' className={styles.button_projeto}>Repositório</a>
+                  <a href={projeto.link} target='_blank' rel='noreferrer' className={styles.button_projeto}>Acessar site</a>
+                  <a href={projeto.repositorio} target='_blank' rel='noreferrer' className={styles.button_projeto}>Repositório</a>
                 </div>
             </div>
             
@@ -108,8 +112,8 @@ const Projetos = () => {
 
                   <p>{projeto.description}</p>
                   <div className={styles.div_buttons}>
-                    <a href='/' target='_blank' className={styles.button_projeto}>Acessar site</a>
-                    <a href='/' className={styles.button_projeto}>Repositório</a>
+                    <a href={projeto.link} target='_blank' rel='noreferrer' className={styles.button_projeto}>Acessar site</a>
+                    <a href={projeto.repositorio} target='_blank' rel='noreferrer'className={styles.button_projeto}>Repositório</a>
                   </div>
               </div>
             </div>

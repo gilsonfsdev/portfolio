@@ -1,6 +1,7 @@
 .div_sobre_descricao{
   display: flex;
   flex-direction: column;
+  padding-bottom: 12px;
 }
 
 .sobre_sobre{
