@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './SobreLinks.module.css';
-import { motion } from 'framer-motion';
 
 // react-icons
 import {CiLinkedin} from 'react-icons/ci';
