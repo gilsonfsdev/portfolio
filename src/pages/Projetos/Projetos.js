@@ -4,6 +4,8 @@ import { useRef } from 'react';
 
 // imagens
 import  ControleFinanceiro  from '../../images/ControleFinanceiro.jpg';
+import bubblecoffee from '../../images/bubblecoffee.png';
+import EmConstrucao from '../../images/EmConstrucao.png';
 
 // ícones
 import {AiOutlineBackward } from 'react-icons/ai'
@@ -18,26 +20,26 @@ const Projetos = () => {
       {
         id:1,
         id2: 11,
-        title: "App Finanças",
-        imagem: ControleFinanceiro,
-        description: "Em construção",
-        link: "/",
-        repositorio: 'https://github.com/gilsonfsdev'
+        title: "Bubble Coffee",
+        imagem: bubblecoffee,
+        description: "A Landing Page, com a temática de cafeteria, foi desenvolvida com o intuito de colocar em prática os conhecimentos em Next, Tailwind e design responsivo.",
+        link: "https://coffeeshop-gilsonfsdev.vercel.app/",
+        repositorio: 'https://github.com/gilsonfsdev/coffeeshop'
       },
       {
         id:2,
         id2: 22,
-        title: "Projeto 2",
+        title: "Controle Financeiro",
         imagem: ControleFinanceiro,
-        description: "Em construção ",
-        link: "/",
-        repositorio:'https://github.com/gilsonfsdev'
+        description: "Aplicação para controle financeiro, na qual pude entender de forma prática as passagens de props, os hooks useState e useEffect, e a dinâmica do formulário. Para armazenamento utilizei a localStorage e para estilização optei pelo Styled Components. ",
+        link: "https://app-financ-control.vercel.app/",
+        repositorio:'https://github.com/gilsonfsdev/controle-financeiro'
       },
       {
         id:3,
         id2: 33,
         title: "Projeto 3",
-        imagem: ControleFinanceiro,
+        imagem: EmConstrucao,
         description: "Em construção ",
         link: "/",
         repositorio:'https://github.com/gilsonfsdev'
@@ -46,7 +48,7 @@ const Projetos = () => {
         id:4,
         id2: 44,
         title: "Projeto 4",
-        imagem: ControleFinanceiro,
+        imagem: EmConstrucao,
         description: "Em construção ",
         link: "/",
         repositorio:'https://github.com/gilsonfsdev'
