@@ -5,7 +5,8 @@ import { useRef } from 'react';
 // imagens
 import  ControleFinanceiro  from '../../images/ControleFinanceiro.jpg';
 import bubblecoffee from '../../images/bubblecoffee.png';
-import EmConstrucao from '../../images/EmConstrucao.png';
+import EmConstrucao from '../../images/EmConstrucao.jpeg';
+import Movies from '../../images/movies.png';
 
 // ícones
 import {AiOutlineBackward } from 'react-icons/ai'
@@ -38,21 +39,12 @@ const Projetos = () => {
       {
         id:3,
         id2: 33,
-        title: "Projeto 3",
-        imagem: EmConstrucao,
-        description: "Em construção ",
-        link: "/",
-        repositorio:'https://github.com/gilsonfsdev'
+        title: "MoviesDB",
+        imagem: Movies,
+        description: "Aplicação feita em NextJS, construída com o intuíto de praticar a consulta a API externa e o manuseio dos dados que retornam.",
+        link: "https://movies-gilsonfsdev.vercel.app/",
+        repositorio:'https://github.com/gilsonfsdev/movies'
       },
-      {
-        id:4,
-        id2: 44,
-        title: "Projeto 4",
-        imagem: EmConstrucao,
-        description: "Em construção ",
-        link: "/",
-        repositorio:'https://github.com/gilsonfsdev'
-      }
     ]
 
   const handleLeftClick = (e) => {
