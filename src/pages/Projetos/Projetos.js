@@ -3,10 +3,9 @@ import styles from './Projetos.module.css';
 import { useRef } from 'react';
 
 // imagens
-import  ControleFinanceiro  from '../../images/ControleFinanceiro.jpg';
 import bubblecoffee from '../../images/bubblecoffee.png';
-import EmConstrucao from '../../images/EmConstrucao.jpeg';
 import Movies from '../../images/movies.png';
+import todo from '../../images/to-do.png'
 
 // ícones
 import {AiOutlineBackward } from 'react-icons/ai'
@@ -21,20 +20,20 @@ const Projetos = () => {
       {
         id:1,
         id2: 11,
+        title: "To-Do",
+        imagem: todo,
+        description: "Aplicação desenvolvida em React, usando Vite, TypeScript e Styled-Components. Na aplicação existem as funcionalidade de criação de atividades, visualização, monitoramento de quantas foram concluídas e remoção.",
+        link: "https://to-do-gilsonfsdev.vercel.app/",
+        repositorio: 'https://github.com/gilsonfsdev/toDo'
+      },
+      {
+        id:2,
+        id2: 11,
         title: "Bubble Coffee",
         imagem: bubblecoffee,
         description: "A Landing Page, com a temática de cafeteria, foi desenvolvida com o intuito de colocar em prática os conhecimentos em Next, Tailwind e design responsivo.",
         link: "https://coffeeshop-gilsonfsdev.vercel.app/",
         repositorio: 'https://github.com/gilsonfsdev/coffeeshop'
-      },
-      {
-        id:2,
-        id2: 22,
-        title: "Controle Financeiro",
-        imagem: ControleFinanceiro,
-        description: "Aplicação para controle financeiro, na qual pude entender de forma prática as passagens de props, os hooks useState e useEffect, e a dinâmica do formulário. Para armazenamento utilizei a localStorage e para estilização optei pelo Styled Components. ",
-        link: "https://app-financ-control.vercel.app/",
-        repositorio:'https://github.com/gilsonfsdev/controle-financeiro'
       },
       {
         id:3,

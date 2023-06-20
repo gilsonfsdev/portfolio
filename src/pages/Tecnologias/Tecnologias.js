@@ -26,7 +26,11 @@ const Tecnologias = () => {
         <div className={styles.tecnologia}>
           <DiJavascript1 alt='ícone do JavaScript' />
           <p>Javascript</p>
-        </div>   
+        </div> 
+        <div className={styles.tecnologia}>
+          <TbBrandTypescript alt='ícone do TypeScript' />
+          <p>TypeScript</p>
+        </div>  
         <div className={styles.tecnologia}>
           <SiTailwindcss alt='ícone do Tailwind' />
           <p>Tailwind CSS</p>
