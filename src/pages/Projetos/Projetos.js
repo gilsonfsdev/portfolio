@@ -6,6 +6,7 @@ import { useRef } from 'react';
 import bubblecoffee from '../../images/bubblecoffee.png';
 import Movies from '../../images/movies.png';
 import todo from '../../images/to-do.png'
+import timer from '../../images/timer.png'
 
 // ícones
 import {AiOutlineBackward } from 'react-icons/ai'
@@ -38,6 +39,15 @@ const Projetos = () => {
       {
         id:3,
         id2: 33,
+        title: "Timer Activity",
+        imagem: timer,
+        description: "Página construida com ViteJs, Styled-components e TypeScript. A idéia do projeto é facilitar o controle de tarefas a serem realizadas em determinado tempo.",
+        link: "https://timer-activity.vercel.app/",
+        repositorio:'https://github.com/gilsonfsdev/timer-activity'
+      },
+      {
+        id:4,
+        id2: 44,
         title: "MoviesDB",
         imagem: Movies,
         description: "Aplicação feita em NextJS, construída com o intuíto de praticar a consulta a API externa e o manuseio dos dados que retornam.",
