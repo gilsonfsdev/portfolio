@@ -23,12 +23,12 @@
   font-size: 1rem;
   font-weight: 300;
   border-radius: 6px;
-  border: 1px solid var(--color-contrast-2);
+  border: 1px solid #cccccc25;
   transition: .3s all ease-in-out;
 }
 
 .container_layout:hover{
-  border: 1px solid var(--color-contrast-1);
+  border: 1px solid var(--color-contrast-2);
 }
 
 
