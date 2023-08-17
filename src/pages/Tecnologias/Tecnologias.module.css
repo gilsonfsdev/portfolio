@@ -29,7 +29,7 @@
   color: var(--color-contrast-1);
   padding: 12px 12px;
   border: 0.5px solid #101013;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .tecnologia:hover{

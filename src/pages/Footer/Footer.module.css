@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 4rem;
   background-color: var(--color-background-dark);
   width: 100%;
   color: #ccc;

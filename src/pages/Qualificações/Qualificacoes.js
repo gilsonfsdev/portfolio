@@ -17,19 +17,17 @@ const Qualificacoes = () => {
           <article className={styles.qualificacao_graduacao} animate={{ y: [ -500, 0 ]}} transition={{ ease: "easeOut", duration: 1.5 }}>
             <IoSchool alt='ícone do chapéu de formando' />
             <h4>Análise e Desenvolvimento de Sistemas - UNIMAR</h4>
-            <p>Ínicio em 01/2022</p>
-            <p>Conclusão em 06/2024</p>
+            <p>Conclusão em 2024</p>
           </article>
           <article className={styles.qualificacao_graduacao}>
             <IoSchool alt='ícone do chapéu de formando' />
             <h4>Comunicação Social - Faculdade Maringá</h4>
-            <p>Ínicio em 01/2012</p>
-            <p>Conclusão em 12/2015</p>
+            <p>Concluído em 2015</p>
           </article > 
-          <QualificacoesCard h4={'React - Do Zero a maestria'} p={'Conclusão em 02/2023'} />
+          <QualificacoesCard h4={'Trilha Ignite (ReactJS) - RocketSeat'} p={'Conclusão em 08/2023'} /> 
+          <QualificacoesCard h4={'React - Do Zero a maestria - Udemy'} p={'Conclusão em 02/2023'} />
           <QualificacoesCard h4={'Bootcamp Impulso Javascript - Digital Innovation One'} p={'Conclusão em 08/2022'} />
           <QualificacoesCard h4={'Programação em Javascript - Udemy'} p={'Conclusão em 02/2022'} />
-          <QualificacoesCard h4={'Web Design HTML5 + CSS3 + JS - Udemy'} p={'Conclusão em 10/2021'} /> 
         </div>            
       </div>
     </section>

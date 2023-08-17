@@ -34,7 +34,7 @@
     left: 0;
     background: linear-gradient(270deg, var(--color-contrast-1) 0%, #17161d 100%);
     transform-origin: bottom right;
-    transition: 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
   }
   
   .nav_list_mobile li a:hover::after{

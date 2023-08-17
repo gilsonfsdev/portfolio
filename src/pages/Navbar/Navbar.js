@@ -21,7 +21,7 @@ const Navbar = () => {
     <header>
       <div className={styles.container}>
         <nav>
-          <motion.a href='#sobre'
+          <motion.a href='/'
             animate={{ x: [ -100, 0 ]}}
             transition= {{
               type:'just',

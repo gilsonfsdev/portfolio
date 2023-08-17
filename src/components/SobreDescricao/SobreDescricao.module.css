@@ -13,19 +13,19 @@
 
 .div_sobre_descricao h2{
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
   padding-bottom: 6px;
 }
 
 .sobre_subtitle{
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   padding-bottom: 12px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .sobre_description{
   color: #BFBFBF;
-  line-height: 130%;
+  line-height: 1.5;
   text-align:justify;
   font-weight: 400;
   margin-bottom: 12px;
@@ -39,7 +39,7 @@
   width: 135px;
   text-align: center;
   padding: 12px;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
   border: 1px solid var(--color-contrast-2);
 }
 
