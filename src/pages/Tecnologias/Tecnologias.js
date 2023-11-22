@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './Tecnologias.module.css'
 
 // ícones
-import { FaHtml5, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaNode, FaReact } from 'react-icons/fa';
 import { DiCss3, DiJavascript1 } from 'react-icons/di';
-import { SiStyledcomponents, SiTailwindcss } from 'react-icons/si'
+import { SiFastify, SiPrisma, SiStyledcomponents, SiTailwindcss } from 'react-icons/si'
 import {TbBrandTypescript, TbBrandNextjs } from 'react-icons/tb'
 
 // component
@@ -46,7 +46,19 @@ const Tecnologias = () => {
         <div className={styles.tecnologia}>
           <TbBrandNextjs alt='ícone do Next.js' />
           <p>Next.js</p>
-        </div>          
+        </div>  
+        <div className={styles.tecnologia}>
+          <FaNode alt='ícone do NodeJS' />
+          <p>NodeJS</p>
+        </div> 
+        <div className={styles.tecnologia}>
+          <SiFastify alt='ícone do Fastify' />
+          <p>Fastify</p>
+        </div>      
+        <div className={styles.tecnologia}>
+          <SiPrisma alt='ícone do Prisma' />
+          <p>Prisma</p>
+        </div>                      
       </div>
     </section>
   )

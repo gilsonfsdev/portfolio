@@ -24,8 +24,8 @@ const Qualificacoes = () => {
             <h4>Comunicação Social - Faculdade Maringá</h4>
             <p>Concluído em 2015</p>
           </article > 
+          <QualificacoesCard h4={'Trilha Ignite (NodeJS) - RocketSeat'} p={'Conclusão em 11/2023'} /> 
           <QualificacoesCard h4={'Trilha Ignite (ReactJS) - RocketSeat'} p={'Conclusão em 08/2023'} /> 
-          <QualificacoesCard h4={'React - Do Zero a maestria - Udemy'} p={'Conclusão em 02/2023'} />
           <QualificacoesCard h4={'Bootcamp Impulso Javascript - Digital Innovation One'} p={'Conclusão em 08/2022'} />
           <QualificacoesCard h4={'Programação em Javascript - Udemy'} p={'Conclusão em 02/2022'} />
         </div>            
