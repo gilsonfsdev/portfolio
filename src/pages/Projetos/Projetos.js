@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Projetos.module.css';
 
 // imagens
-import bubblecoffee from '../../images/bubblecoffee.png';
+import vlv from '../../images/vlv.png'
 import todo from '../../images/to-do.png'
 import timer from '../../images/timer.png'
 import coffeeDelivery from '../../images/coffee-delivery.png'
@@ -24,12 +24,12 @@ const Projetos = () => {
     },
       {
         id:2,
-        title: "Bubble Coffee",
-        imagem: bubblecoffee,
-        tecnologias: ["JavaScript", "Tailwind", "Next"],
-        description: "A Landing Page, com a temática de cafeteria, foi desenvolvida com o intuito de colocar em prática os conhecimentos em Next, Tailwind e design responsivo.",
-        link: "https://coffeeshop-gilsonfsdev.vercel.app/",
-        repositorio: 'https://github.com/gilsonfsdev/coffeeshop'
+        title: "VLV Advogados",
+        imagem: vlv,
+        tecnologias: ["TypeScript", "Styled-Components", "Vite"],
+        description: "Landing Page criada para um escritório de advocacia. Explore o site para conhecer meu trabalho em design web e desenvolvimento front-end para escritórios jurídicos.",
+        link: "https://landing-page-attorney.vercel.app/",
+        repositorio: 'https://github.com/gilsonfsdev/landing-page-attorney'
       },
       {
         id:3,
